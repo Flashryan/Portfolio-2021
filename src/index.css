@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.portfolioImage {
+    opacity:1;
+    -webkit-transition: -webkit-transform 0.4s;
+    transition: transform 0.6s;
+    overflow: hidden;
+    
+}
+.portfolioImage:hover {
+    opacity:0.1;
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+    -webkit-transform: scale(1.1) rotate(0.01deg);
+    transform: scale(1.1) rotate(0.01deg);
+    overflow: hidden;
+}
+
+.portfolioImage-individual:hover {
+   background-color: crimson;
+   opacity:1;
+
+}
+
+.bg-pink {
+    background:crimson;
+}
+
+.tileTitle {
+    position: relative;
+}
