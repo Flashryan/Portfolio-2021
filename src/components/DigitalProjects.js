@@ -8,10 +8,10 @@ import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 import Lightbox from "react-awesome-lightbox";
 import "react-awesome-lightbox/build/style.css";
 import { SRLWrapper } from "simple-react-lightbox";
-import img01 from "../images/image-1.jpeg"
 
 
-export default function DigitalProjects({showModal}) {
+
+export default function PrintProjects({showModal}) {
 
     const options = {
         buttons: {
@@ -56,7 +56,6 @@ useEffect(() => {
         slug,
         "name": author->name,
         tileDescription,
-        link
         mainImage {
             asset -> {
             _id,
